@@ -139,10 +139,7 @@ onMounted(async () => {
       //перероьити на await , зберігати в локал сторідж
       //якщо строка пуста , вивести перші 3
       //gthtl map зробити фільтр по вибраним
-
       //coins.value = response.data.Data.map(parseDataToCoin)
-
-      console.log(coins.value)
     })*/
 })
 </script>
