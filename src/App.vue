@@ -136,10 +136,6 @@ onMounted(async () => {
     .get<Response>('https://min-api.cryptocompare.com/data/top/totalvolfull?limit=10&tsym=USD')
 
     .then((response) => {
-      // this.name = response.data.Data[0].CoinInfo.Name
-      // this.price = response.data.Data[0].RAW.USD.PRICE
-      // this.Fullname = response.data.Data[0].CoinInfo.FullName
-      // this.icon = response.data.Data[0].CoinInfo.ImageUrl
       //перероьити на await , зберігати в локал сторідж
       //якщо строка пуста , вивести перші 3
       //gthtl map зробити фільтр по вибраним
