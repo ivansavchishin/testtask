@@ -107,8 +107,6 @@ window.addEventListener('storage', (event) => {
 
 // const addCOins = computed(() => {
 //   localStorage.setItem('names', JSON.stringify(value.name))
-
-//   console.log(value.name)
 //   console.log(filterСoins())
 //   filterСoins()
 //   return value.name.length > 0 ? localStorage.getItem('names') : 'No'
